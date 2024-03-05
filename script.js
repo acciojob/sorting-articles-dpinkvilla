@@ -1,6 +1,17 @@
 
 // List of articles
-var articles = ['The Plot in You', 'The Devil Wears Prada', 'Pierce the Veil', 'Norma Jean', 'The Bled', 'Say Anything', 'The Midway State', 'We Came as Romans', 'Counterparts', 'Oh, Sleeper', 'A Skylit Drive', 'Anywhere But Here', 'An Old Dog'];
+var articles = [
+				'The Devil Wears Prada',
+				
+				'Norma Jean',
+				'The Bled',
+			
+				'The Midway State',
+				
+				'Counterparts',
+				'Oh, Sleeper',
+				'Anywhere But Here',
+				'An Old Dog'];
 
 // Function to sort articles while ignoring certain words
 function sortArticles(articles) {
@@ -28,7 +39,7 @@ function sortArticles(articles) {
 sortArticles(articles);
 
 // Get the ul element
-var bandList = document.getElementById("band");
+var bandList = document.getElementById("bands");
 
 // Add sorted articles to the ul
 articles.forEach(function(article) {
