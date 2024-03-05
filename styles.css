@@ -1,1 +1,10 @@
 /*  your css code here. If applicable */
+#band{
+	background-color:red;
+	padding:20px;
+	margin:20px;
+	
+}
+#band>li{
+	background-color:yellow;
+}
